@@ -44,6 +44,11 @@ void ABaseHUD::SetBattleScreenVisibility(const bool bShouldBeVisible)
     GetOwningPlayerController()->SetVirtualJoystickVisibility(bShouldBeVisible);
 }
 
+void origin_rel_2()
+{
+	
+}
+
 void ABaseHUD::AddWidgetToScreen(TSubclassOf<UUserWidget> WidgetClass)
 {
 	if (!ScreensMap.Contains(WidgetClass))
