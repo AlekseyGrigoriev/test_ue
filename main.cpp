@@ -49,6 +49,11 @@ void origin_rel_2()
 	
 }
 
+void origin_rel_3()
+{
+	
+}
+
 void ABaseHUD::AddWidgetToScreen(TSubclassOf<UUserWidget> WidgetClass)
 {
 	if (!ScreensMap.Contains(WidgetClass))
